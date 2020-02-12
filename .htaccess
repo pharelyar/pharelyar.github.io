@@ -1,4 +1,4 @@
-
+﻿
 # BEGIN WordPress
 # Строки между `BEGIN WordPress` и `END WordPress` были созданы автоматически.
 # Они могут быть изменены только фильтрами WordPress.
@@ -13,3 +13,5 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+Redirect 301 /index.php http://wm-shop.io.ua/index.html
